@@ -7,7 +7,7 @@ We appreciate and welcome contributions to our Android app. Before you start, pl
 1. Fork this repository.
 2. Clone your forked repository to your local machine.
 3. Create Firebase project Videoz and add json file in project
-4. Create API keys() and add them to 
+4. Create API keys(https://rapidapi.com/ytjar/api/yt-api/,https://rapidapi.com/Glavier/api/youtube138) and add them to ApiService.kt and AutoCompleteService.kt)
 5. Make your changes and test them locally.
 6. Push your changes to your forked repository.
 7. Submit a pull request to the original repository.
