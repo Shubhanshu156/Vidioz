@@ -12,7 +12,7 @@ import retrofit2.http.Query
 interface ApiService {
 
     @Headers(
-        "X-RapidAPI-Key:ddc133bb23msh9fbf09b19fcdd94p19ab2djsn080f0c36a5b6",
+        "X-RapidAPI-Key:Enter Your key here",
         "X-RapidAPI-Host:yt-api.p.rapidapi.com"
     )
     @GET("/search")
@@ -24,7 +24,7 @@ interface ApiService {
     ): SearchResponse
 
     @Headers(
-        "X-RapidAPI-Key:ddc133bb23msh9fbf09b19fcdd94p19ab2djsn080f0c36a5b6",
+        "X-RapidAPI-Key:Enter Your Key here
         "X-RapidAPI-Host:yt-api.p.rapidapi.com"
     )
     @GET("/trending")
@@ -34,7 +34,7 @@ interface ApiService {
     ): TrendingResponse
 
     @Headers(
-        "X-RapidAPI-Key:ddc133bb23msh9fbf09b19fcdd94p19ab2djsn080f0c36a5b6",
+        "X-RapidAPI-Key:Enter Your Key here",
         "X-RapidAPI-Host:yt-api.p.rapidapi.com"
     )
     @GET("/dl")
@@ -43,7 +43,7 @@ interface ApiService {
     ):VideoResponse
 
     @Headers(
-        "X-RapidAPI-Key:ddc133bb23msh9fbf09b19fcdd94p19ab2djsn080f0c36a5b6",
+        "X-RapidAPI-Key:Enter Your Key here",
         "X-RapidAPI-Host:yt-api.p.rapidapi.com"
     )
     @GET("/related")
@@ -53,7 +53,7 @@ interface ApiService {
     ):SearchResponse
 
         @Headers(
-        "X-RapidAPI-Key:ddc133bb23msh9fbf09b19fcdd94p19ab2djsn080f0c36a5b6",
+        "X-RapidAPI-Key:Enter Your Key here",
         "X-RapidAPI-Host:yt-api.p.rapidapi.com"
     )
     @GET("/channel/about")
