@@ -171,7 +171,7 @@ class VideoScreenViewModel @Inject constructor(
                                     val subscribedChannels = SubscribedChannels(
                                         channelResult.data?.channelHandle!!,
                                         channelResult.data?.avatar?.last()?.url!!,
-                                        channelResult.data?.subscriberCountText!!,
+                                        channelResult.data.subscriberCountText,
                                         channelResult.data?.videosCount!!,
                                         channelResult.data?.channelId!!
                                     )
